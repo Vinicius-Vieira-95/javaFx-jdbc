@@ -100,7 +100,5 @@ public class DepartmentListController implements Initializable {
 			System.out.println("V");
 		}
 	}
-	
-	
 
 }
