@@ -97,6 +97,7 @@ public class DepartmentListController implements Initializable {
 		}
 		catch(IOException e) {
 			Alerts.showAlert("IOException", "Error loading view", e.getMessage(), Alert.AlertType.ERROR);
+			System.out.println("V");
 		}
 	}
 	
